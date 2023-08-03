@@ -1,53 +1,39 @@
-#for with else loop
-for i in "prince":
-    if i=="c":
+# Break
+for num in range(1, 6):
+    if num == 3:
+        print("Break")
         break
-    else:
-        print(i)
+    print(num)
 else:
-    print("This has break")
+    print("without break statement")
 
-# for i in "prince":
-#     if i=="n":
-#         pass
-#     else:
-#         print(i)
-# else:
-#     print("This has pass")
+# Pass
+for l in 'Dhvani':
+    if l == 'i':
+        pass
+    print(l)
+else:
+    print("Loop completed")
 
+# Continue
+for num in range(1, 10):
+    if num == 9:
+        print("Skipping the iteration")
+        continue
+    print(num)
+else:
+    print("Loop completed")
 
-# for i in "prince":
-#     if i=="r":
-#         continue
-#     else:
-#         print(i)
-# else:
-#     print("This has continue")
+# For...with else
+for num in range(1, 6):
+    print(num)
+else:
+    print("Loop completed")
 
-# #while with else loop
-# i=1
-# while i<=10:
-#     if i==5:
-#         break
-#     else:
-#         print(i)
-# else:
-#     print("This has break")
-
-# i=1
-# while i<=10:
-#     if i==5:
-#         continue
-#     else:
-#         print(i)
-# else:
-#     print("This has continue")
-
-# i=1
-# while i<=10:
-#     if i==5:
-#         pass
-#     else:
-#         print(i)
-# else:
-#     print("This has pass")
+# While...with else
+count = 0
+while count <= 5:
+    print(count)
+    count += 1
+else:
+    print("Loop completed")
